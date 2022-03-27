@@ -1,0 +1,71 @@
+
+.prd {display: flex; margin-bottom: 20px;
+margin-left: 20px;}
+@media (max-width: 700px) {
+    .prd{ text-align: center; display: block;}}
+/* визуал сайта через тел */
+.i {border-radius: 40px; box-shadow: 5px 5px 20px indigo ;}
+.all {margin-left: 40px;}
+.all h4{ margin-bottom: 10px;}
+.all h4 {
+    color: #aaaeb6;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none; margin-bottom: 10px;}
+body {background-color: rgb(240, 237, 248);
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Inspiration', cursive;
+    padding: 40px;}
+    .along {padding-top: 50px;}
+    /* h3 отступы сверху */
+    .hobby {background: #e7ced1;
+border-radius: 28px;
+padding-left: 45px;}
+/* Табличка с опытом работы: */
+.practice tr:nth-child(even) {
+    background: rgb(202, 167, 248);}
+ .practice td { padding-bottom: 10px; }
+      .table td:nth-child(2), 
+      .table td:nth-child(4) { color: #305eb9; }
+    .skill {background: #cee6cc;
+        border-radius: 28px;
+        padding-left: 45px;}
+    /* Часть Связаться со мной: */
+        .name-group label {display: block;
+    font-size: 14px;
+    color: #86898f;}
+    .name-group input,
+    .name-group textarea {
+            width: 100%;
+            box-sizing: border-box;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid #ccc;
+            color: #000;
+            padding: 15px 0 10px;
+            outline: none;
+            font-family: inherit; }
+.place {
+    display: flex;
+    margin-bottom: 20px; }
+    .place > .name-group:last-child {
+        margin-right: 0;}
+    .place > .name-group {
+        width: 50%;
+        margin-right: 20px; }
+/* Кнопка связаться: */
+.btn {
+    background: rgb(87, 77, 77);
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer; 
+border-radius: 29px;}
+  
+  .btn:hover {opacity: 0.9;}
+  .studies {padding-left: 45px;
+border-radius: 28px; background-color:rgb(243, 241, 212);}
